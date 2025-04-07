@@ -1,0 +1,169 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+/* * {
+    background:black ;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin:0px;
+    background-color: black;
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    width: 80%;
+    margin:auto;
+    display:flex;
+
+}
+.header .container {
+   justify-content:space-between;
+}
+
+.header .navbar{
+    color:yellow;
+    list-style-type: none;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width: 300px;
+}
+
+.navbar a{
+    color:yellow;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.header {
+    border-bottom: solid aqua 4px;
+}
+
+.header .container .titulo {
+    color:aqua;
+}
+
+.banner {
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    height:400px;
+}
+.banner .container p{
+    color:white;
+    font-size:40px;
+    width: 45%;
+}
+.banner .container{
+    height:100%;
+    justify-content:center;
+    align-items: center;
+}
+.banner .container p span{
+    font-weight: 600;
+}
+.social {
+    background:#fff;
+}
+.boxes {
+    width:100% ;
+    display:flex;
+    justify-content: space-between;
+
+}
+.box {
+    width:150px;
+
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+}
+.box img {
+    margin-top: 15px;
+    width:80%;
+}
+.box h4 {
+    color: crimson;
+}
+
+.login {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.card h2 {
+    color: #d63384;
+    margin-bottom: 20px;
+}
+
+.formulario .campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.formulario .campo span {
+    display: block;
+    font-weight: 600;
+    color: #d63384;
+    margin-bottom: 5px;
+}
+
+.formulario .campo input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00cfff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.botao {
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #e60073;
+}
+
+.footer {
+    background-color: aqua;
+    color: black;
+    border-top: 2px solid black;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.footer .version {
+    color: rgb(11, 58, 97);
+}
